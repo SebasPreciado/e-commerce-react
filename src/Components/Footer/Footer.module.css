@@ -1,0 +1,38 @@
+.icon {
+  cursor: pointer;
+}
+
+.containerIcon {
+  border-left: 1px solid rgb(189, 189, 189);
+  width: 25%;
+}
+
+.typoFooter {
+  font-weight: bold !important;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.iconContainer {
+  display: flex;
+}
+
+.containerIconFirst{
+  width: 25%;
+}
+@media (max-width: 600px) {
+  .iconContainer {
+    flex-direction: column;
+  }
+
+  .containerIcon {
+    border-left: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .containerIconFirst{
+    width: 100%;
+    border-bottom: 1px solid rgb(189, 189, 189);
+  }
+}

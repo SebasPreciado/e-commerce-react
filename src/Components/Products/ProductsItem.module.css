@@ -1,0 +1,58 @@
+.product{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, .1);
+    padding: 20px 5px;
+    color: white;
+    height: auto;
+  }
+
+  .product:hover{
+    background-color: rgb(255, 255, 255, .8);
+    color: black;
+  }
+
+  .image{
+    margin: 30px 0;
+  }
+
+  .data{
+    font-size: 20px !important;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  }
+
+  .button{
+    text-transform: none !important;
+    background-color: #52BE80 !important;
+    color: white !important;
+    font-size: 20px !important;
+    width: 100%;
+    color: black !important;
+  }
+  .infoWatch{
+    padding: 30px;
+  }
+
+  .description{
+    text-align: start;
+  }
+
+.card{
+    margin: 10px;
+}
+
+.textCard{
+    font-size: 15px;
+}
+
+.textCard span{
+    color: #84a496;
+    font-weight: 900 !important;
+}

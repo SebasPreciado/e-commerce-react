@@ -1,0 +1,102 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  min-width: 450px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  opacity: 1;
+  visibility: visible;
+}
+
+.containerCarShop {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #6d6d6d;
+  border-radius: 10px;
+}
+
+.textNull {
+  padding: 30px;
+  font-family: "Mulish", sans-serif !important;
+  font-weight: bold !important;
+  font-size: 18px;
+}
+
+.buttonNull {
+  padding: 5px 40px;
+  background-color: #84a496 !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  color: white !important;
+  text-transform: none;
+}
+
+.buttonNull:hover {
+  color: black !important;
+}
+
+.watchItem {
+  border-radius: 8px;
+  border: 3px solid rgb(189, 189, 189);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.watchItem:hover {
+  border: 3px solid #84a496;
+}
+
+.buttonDelete {
+  margin: 10px;
+}
+
+.boxCountWatch {
+  display: flex;
+  justify-content: center;
+  background-color: #84a496;
+  align-items: center;
+  padding: 10px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-weight: 900;
+  font-family: "Mulish", sans-serif;
+}
+
+.title {
+  font-weight: 900;
+  font-family: "Mulish", sans-serif;
+  margin: 10px;
+}
+
+.footerModal {
+  text-align: center;
+}
+
+.dialog{
+  padding: 30px 50px !important;
+  text-align: center;
+}
